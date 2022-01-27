@@ -5,7 +5,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
  
 contract WWToken is ERC20, Ownable {
     constructor() ERC20("Wojciech Wicher Token A", "WWTA") {
-        _mint(msg.sender, 1001 * 10 ** 18);
+        _mint(msg.sender, 1000 * 10 ** 18);
     }
 
     function mint(address account, uint256 amount) public onlyOwner {
