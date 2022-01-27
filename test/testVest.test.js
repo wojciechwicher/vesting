@@ -8,7 +8,7 @@ contract("Exchange", (accounts) => {
   let balance;
   let result;
 
-  describe("Kantor tests", async () => {
+  describe("Vesting tests", async () => {
 
     before(async () => {
       wWToken = await WWToken.deployed();
